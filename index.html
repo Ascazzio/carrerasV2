@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="author" content="Fabrizio Pironi"> 
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cannonball</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="fase1" style="display: block;">
+        
+        <h1>Fase 1</h1>
+
+        <div id="boton" onclick="capas('2')">
+            <p>Siguiente</p>
+        </div>
+    </div>
+
+    <div id="fase2" style="display: none;">
+
+        <h1>Fase 2</h1>
+
+        <div id="boton" onclick="capas('3')">
+            <p>Siguiente</p>
+        </div>
+    </div>
+
+    <div id="fase3" style="display: none;">
+
+        <h1>Fase 3</h1>
+
+        <div id="boton" onclick="capas('1')">
+            <p>Siguiente</p>
+        </div>
+    </div>
+
+    <script src="js/screenChange.js"></script>
+</body>
+</html>
