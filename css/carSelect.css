@@ -1,0 +1,135 @@
+
+/* ordenar las clases */
+
+.containerSelection {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    grid-template-rows: 1.5fr 0.5fr 1.5fr 0.5fr 1.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+
+    grid-template-areas:
+      "fairlady z28 challenger"
+      "fairladyStats z28Stats challengerStats"
+      "corvette miura ferrari"
+      "corvetteStats miuraStats ferrariStats"
+      "menu menu menu";
+
+    height: 700px;
+    width: 800px;
+
+    border: solid white 2px;
+  }
+
+  .imgSelection{
+    height: 65%;
+    width: 65%;
+  }
+
+  .imgSelection:hover {
+      height: 70%;
+      width: 70%;
+      transition: 200ms;
+  }
+
+  .selectedEffect {
+    filter: brightness(0.4);
+  }
+
+  
+  .fairlady {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: fairlady;
+  }
+  
+  .z28 {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: z28;
+  }
+  
+  .challenger {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: challenger;
+  }
+  
+  .z28Stats {
+  
+    align-self: center;
+    grid-area: z28Stats;
+    background-color:orange ;
+  }
+  
+  .fairladyStats {
+  
+    align-self: center;
+    grid-area: fairladyStats;
+    background-color:orange ;
+
+  }
+  
+  .challengerStats {
+  
+    align-self: center;
+    grid-area: challengerStats;
+    background-color:orange ;
+
+  }
+  
+  .corvette {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: corvette;
+  }
+  
+  .miura {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: miura;
+  }
+  
+  .ferrari {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: ferrari;
+  }
+  
+  .menu {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: menu;
+    background-color: lightblue;
+  }
+  
+  .corvetteStats {
+  
+    align-self: center;
+    grid-area: corvetteStats;
+    background-color:orange ;
+
+  }
+  
+  .miuraStats {
+  
+    align-self: center;
+    grid-area: miuraStats;
+    background-color:orange ;
+
+  }
+  
+  .ferrariStats {
+  
+    align-self: center;
+    grid-area: ferrariStats;
+    background-color:orange ;
+
+  }

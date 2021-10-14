@@ -5,7 +5,7 @@ const capas = (num) => {
 
     arrayFases = arrayFases.filter(val => !faseSolicitada.includes(val));
 
-    document.getElementById(faseSolicitada).style.display = "block";
+    document.getElementById(faseSolicitada).style.display = "flex";
 
     for (let _f of arrayFases) {
 

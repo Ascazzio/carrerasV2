@@ -9,9 +9,12 @@
     <title>Cannonball</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carSelect.css">
 </head>
 <body>
     
+
+
     <div id="fase1" style="display: block;">
         
         <h1>Fase 1</h1>
@@ -21,15 +24,64 @@
         </div>
     </div>
 
-    <div id="fase2" style="display: none;">
 
-        <h1>Fase 2</h1>
+                                                        <!-- Seleccion del coche -->
 
-        <div id="boton" onclick="capas('3')">
-            <p>Siguiente</p>
+
+    <div id="fase2" class="masterContainer" style="display: none;">
+
+        <div class="containerSelection">
+
+            <div class="fairlady">
+                <img id="fairlady" class="imgSelection" src="img/fairladyDer.png" alt="fairlady" onclick="select('fairlady')">
+            </div>
+            <div class="z28">
+                <img id="z28" class="imgSelection" src="img/z28Der.png" alt="z28" onclick="select('z28')">
+            </div>
+            <div class="challenger">
+                <img id="challenger" class="imgSelection" src="img/challengerDer.png" alt="challenger" onclick="select('challenger')">
+            </div>
+            <div class="z28Stats">
+                <p>stats</p>
+            </div>
+            <div class="fairladyStats">
+                <p>stats</p>
+            </div>
+            <div class="challengerStats">
+                <p>stats</p>
+            </div>
+            <div class="corvette">
+                <img id="corvette" class="imgSelection" src="img/corvetteDer.png" alt="corvette" onclick="select('corvette')">
+            </div>
+            <div class="miura">
+                <img id="miura" class="imgSelection" src="img/miuraDer.png" alt="miura" onclick="select('miura')">
+            </div>
+            <div class="ferrari">
+                <img id="ferrari" class="imgSelection" src="img/ferrariDer.png" alt="ferrari" onclick="select('ferrari')">
+            </div>
+            <div class="menu">
+                <p>menu</p>
+
+            </div>
+            <div class="corvetteStats">
+                <p>stats</p>
+
+            </div>
+            <div class="miuraStats">
+                <p>stats</p>
+
+            </div>
+            <div class="ferrariStats">
+                <p>stats</p>
+
+            </div>
+
         </div>
-    </div>
+        
+        <script src="js/selectMenu.js"></script>
 
+    </div>
+                                                        <!-- Game Over -->
     <div id="fase3" style="display: none;">
 
         <h1>Fase 3</h1>

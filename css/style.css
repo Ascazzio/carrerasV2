@@ -1,3 +1,19 @@
+body {
+    margin: 0%;
+    background-color: black;
+    
+}
+
+.masterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+}
+
+/* Los masterContainer se encuentran en todas las fases
+sirven para que todas las pantallas del juego tengan
+el mismo tamaño */
 
 #boton {
     height: 100px;
@@ -8,10 +24,7 @@
 #fase1 {
     background-color: yellow;
 }
-
-#fase2 {
-    background-color: pink;
-}
+  
 
 #fase3 {
     background-color: purple;
