@@ -1,5 +1,4 @@
 
-/* ordenar las clases */
 
 .containerSelection {
     display: grid;
@@ -16,10 +15,12 @@
       "menu menu menu";
 
     height: 700px;
-    width: 800px;
+    width: 1000px;
 
     border: solid white 2px;
   }
+
+  /* Imgenes y efectos de seleccion */
 
   .imgSelection{
     height: 65%;
@@ -36,41 +37,57 @@
     filter: brightness(0.4);
   }
 
-  
+    /* Coches y estadisticas */
+
+    /* Los coches estan ordenados de izquierda a 
+    derecha y de arriba a abajo, las estadisticas
+    de cada coche se encuentran debajo de las
+    propiedades de las imagenes */
+
+                                          /* Fairlady */
+
   .fairlady {
   
     justify-self: center;
     align-self: center;
     grid-area: fairlady;
   }
-  
-  .z28 {
-  
-    justify-self: center;
-    align-self: center;
-    grid-area: z28;
-  }
-  
-  .challenger {
-  
-    justify-self: center;
-    align-self: center;
-    grid-area: challenger;
-  }
-  
-  .z28Stats {
-  
-    align-self: center;
-    grid-area: z28Stats;
-    background-color:orange ;
-  }
-  
+
   .fairladyStats {
   
     align-self: center;
     grid-area: fairladyStats;
     background-color:orange ;
 
+  }
+
+
+                                          /* z28 */
+  
+
+  .z28 {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: z28;
+  }
+
+  .z28Stats {
+  
+    align-self: center;
+    grid-area: z28Stats;
+    background-color:orange ;
+  }
+
+
+                                          /* Challenger */
+  
+
+  .challenger {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: challenger;
   }
   
   .challengerStats {
@@ -80,36 +97,18 @@
     background-color:orange ;
 
   }
+
+
+                                       /* Corvette */
   
+
   .corvette {
   
     justify-self: center;
     align-self: center;
     grid-area: corvette;
   }
-  
-  .miura {
-  
-    justify-self: center;
-    align-self: center;
-    grid-area: miura;
-  }
-  
-  .ferrari {
-  
-    justify-self: center;
-    align-self: center;
-    grid-area: ferrari;
-  }
-  
-  .menu {
-  
-    justify-self: center;
-    align-self: center;
-    grid-area: menu;
-    background-color: lightblue;
-  }
-  
+
   .corvetteStats {
   
     align-self: center;
@@ -117,13 +116,35 @@
     background-color:orange ;
 
   }
+
+
+                                    /* Miura */
   
+
+  .miura {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: miura;
+  }
+
   .miuraStats {
   
     align-self: center;
     grid-area: miuraStats;
     background-color:orange ;
 
+  }
+
+
+                                    /* Ferrari */
+  
+
+  .ferrari {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: ferrari;
   }
   
   .ferrariStats {
@@ -132,4 +153,22 @@
     grid-area: ferrariStats;
     background-color:orange ;
 
+  }
+
+                                      /* Menu  */
+
+  .menu {
+  
+    justify-self: center;
+    align-self: center;
+    grid-area: menu;
+    background-color: lightblue;
+  }
+
+  #next {
+    background-color: red;
+    color: white;
+    border: solid maroon 5px;
+    border-radius: 10px;
+    padding: 10px;
   }

@@ -9,6 +9,9 @@ body {
     justify-content: center;
     align-items: center;
     border: solid white 2px;
+
+    margin: 0;
+    padding: 0;
 }
 
 /* Los masterContainer se encuentran en todas las fases
@@ -28,4 +31,6 @@ el mismo tamaño */
 
 #fase3 {
     background-color: purple;
+    display: flex;
+    justify-content: center;
 }

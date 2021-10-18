@@ -12,4 +12,6 @@ const capas = (num) => {
         document.getElementById(_f).style.display = "none";
     }
 
+    document.getElementById("player").src = `img/${playerCars[0]}C.png`;  //Para que aparezca el coche correspondiente
+
 };

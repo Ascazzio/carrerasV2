@@ -1,9 +1,18 @@
 
-let playerCars = [];
+var playerCars = [];
+
+// const repeatedCar = (car) => {
+    
+// }
 
 const select = (car) => {
 
-    if (playerCars.length <= 1) {
+    if (document.querySelector('#' + car).classList.contains("selectedEffect")) {
+        
+    }
+      
+
+    if (playerCars.length <= 1) { //para seleccionas hasta 2 coches
         playerCars.push(car);
 
         document.querySelector('#' + car).classList.add("selectedEffect");
@@ -15,8 +24,7 @@ const select = (car) => {
         });
 
         console.log('Fin del llamado');
-    }
-        
+    };  
 
 };
 

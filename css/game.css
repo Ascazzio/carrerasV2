@@ -1,0 +1,189 @@
+
+/* Pasar fase3 aqui */
+
+                                                                /* Vistas jugador */
+
+.player {
+    height: 200px;
+    width: 250px;
+    
+    position: relative;
+    top: 250px;
+    left: 0mm;
+    z-index: 5;
+
+    transition: 500ms;
+}
+
+.right {
+    left: 320px;
+    transition: 500ms;
+}
+
+.left {
+    left: -320px;
+    transition: 500ms;
+}
+
+                                                                /* Trafico */
+
+
+                                        /* Carril Central */
+
+    .trafficCenterStart {
+        height: 40px;
+        width: 50px;
+        position: absolute;
+    
+        top: 400px;
+        z-index: 2;
+    }
+    
+    .trafficCenterEnd {
+        height: 220px;
+        width: 250px;
+    
+        top: 600px;
+        transition: 5s;
+    }
+    
+    
+                                         /* Carril derecho */
+    
+    .trafficRightStart {
+        height: 40px;
+        width: 50px;
+        position: absolute;
+    
+        left: 375px;
+        top: 400px;
+        z-index: 3;
+    }
+    
+    .trafficRightEnd {
+        height: 220px;
+        width: 250px;
+    
+        left: 320px;
+        top: 700px;
+        transition: 5s;
+    }
+    
+                                            /* Carril Izquierdo */
+    
+    .trafficLeftStart {
+        height: 40px;
+        width: 50px;
+        position: absolute;
+    
+        left: 335px;
+        top: 400px;
+        z-index: 2;
+    }
+    
+    .trafficLeftEnd {
+        height: 220px;
+        width: 250px;
+    
+        left: -320px;
+        top: 600px;
+        transition: 5s;
+    }
+
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 1000px;
+}
+
+                                                                /* Carretera */
+
+.roadContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+}
+
+.poligon {
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+.dark {
+    background-color: gray
+}
+
+.ligth {
+    background-color: lightgray;
+}
+
+                                                        /* Trapecios individuales */
+
+#t1 {
+    height: 15mm;
+    width: 315mm;
+}
+
+#t2 {
+    height: 12mm;
+    width: 252mm;
+}
+
+#t3 {
+    height: 9.6mm;
+    width: 201.6mm;
+}
+
+#t4 {
+    height: 7.68mm;
+    width: 161.28mm;
+}
+
+#t5 {
+    height: 6.144mm;
+    width: 129.024mm;
+}
+
+#t6 {
+    height: 4.912mm;
+    width: 103.216mm;
+}
+
+#t7 {
+    height: 3.928mm;
+    width: 82.57536mm;
+}
+
+#t8 {
+    height: 3.136mm;
+    width: 66.060288mm;
+}
+
+#t9 {
+    height: 2.5mm;
+    width: 52.8482304mm;
+}
+
+#t10 {
+    height: 2mm;
+    width: 42.27858432mm;
+}
+
+#t11 {
+    height: 1.6mm;
+    width: 33.82mm;
+}
+
+#t12 {
+    height: 0.928mm;
+    width: 27.05mm;
+}
+
+#t13 {
+    height: 0.736mm;
+    width: 21.64mm;
+}
+                                                

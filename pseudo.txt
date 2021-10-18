@@ -1,0 +1,31 @@
+
+displayCar (coche, direccion) {
+
+    mostrar coche del parametro
+    posicionar coche en el lado correspondiente
+    mostrar dicho coche
+    animar el coche para que recorra la carretera
+    quitar animacion cuando llegue al final delrecorrido
+
+}
+
+let carrilAnterior
+
+randomizer {
+    let carrilEscogido
+    let cocheEscogido
+
+    escoger un coche del trafico aleatorio = cocheEscogido
+    escoger un lado del camino aleatorio = carrilEscogido
+
+        Mientras carrilEscogido == carrilAnterior {
+
+            escoger un lado del camino aleatorio
+        }
+
+    camino aleatorio = carrilAnterior
+    displayCar (cocheEscogido, carrilEscogido)
+}
+
+
+
