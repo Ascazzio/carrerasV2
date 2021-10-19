@@ -28,7 +28,7 @@
                                                                 /* Trafico */
 
 
-                                        /* Carril Central */
+                                                                /* Carril Central */
 
     .trafficCenterStart {
         height: 40px;
@@ -53,10 +53,10 @@
     .trafficRightStart {
         height: 40px;
         width: 50px;
-        position: absolute;
+        position: relative;
     
-        left: 375px;
-        top: 400px;
+        left: 20px;
+        top: 250px;
         z-index: 3;
     }
     
@@ -74,10 +74,10 @@
     .trafficLeftStart {
         height: 40px;
         width: 50px;
-        position: absolute;
+        position: relative;
     
-        left: 335px;
-        top: 400px;
+        left: -30px;
+        top: 210px;
         z-index: 2;
     }
     
