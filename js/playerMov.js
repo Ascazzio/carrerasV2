@@ -71,5 +71,8 @@ const keyEvent = (event) => {
         break;
     };
 
-   
 }
+
+document.getElementById("trafficCenter").classList.add("trafficCenterEnd");
+// document.getElementById("trafficRight").classList.add("trafficRightEnd");
+// document.getElementById("trafficLeft").classList.add("trafficLeftEnd");
