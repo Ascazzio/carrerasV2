@@ -7,7 +7,7 @@ const keyEvent = (event) => {
     switch(event.keyCode){
         case 32:
             console.log("pulsaste la barra espaciadora");
-            document.getElementById("player").src = `img/${playerCars[0]}R.png`;
+            race(); 
 
         break;
 
@@ -16,7 +16,8 @@ const keyEvent = (event) => {
         break;
 
         // //Derecha / right
-        // case 39:
+        case 39:
+            document.getElementById("player").src = `img/${playerCars[0]}R.png`;
         //     console.log("pulsaste la flecha derecha");
             
         //     if (document.getElementById("player").classList.contains("left")) {  
@@ -42,7 +43,7 @@ const keyEvent = (event) => {
 
         //     }
             
-        // break;
+        break;
 
         // //Izquierda / left
         // case 37:
