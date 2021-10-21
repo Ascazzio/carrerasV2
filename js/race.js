@@ -8,6 +8,20 @@ const race = () => {
     distancia = distancia + velocidad;
 }
 
+const restart = () => {
+     velocidad = 0;
+     distancia = 0;
+     distanciaRival = 0;
+}
+
+const ganador = () => {
+    if (distanciaRival > distancia) {
+        return alert('Tu rival a ganado');        
+    } else
+        return alert('has ganado!');
+
+}
+
 setInterval(() => {
     velocidad = velocidad - 5;
     distanciaRival = distanciaRival + 50;
@@ -18,8 +32,9 @@ setInterval(() => {
 
     if (distancia >= 5000 || distanciaRival >= 5000) {
         capas('4');
+        ganador();
+        restart();
     };
-    
 
 }, 50);
 
