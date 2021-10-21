@@ -7,6 +7,9 @@ const keyEvent = (event) => {
     switch(event.keyCode){
         case 32:
             console.log("pulsaste la barra espaciadora");
+            document.getElementById("trafficCenter").classList.add("trafficEnd");
+document.getElementById("trafficRight").classList.add("trafficEnd");
+document.getElementById("trafficLeft").classList.add("trafficEnd");
             
         break;
 
@@ -72,7 +75,3 @@ const keyEvent = (event) => {
     };
 
 }
-
-document.getElementById("trafficCenter").classList.add("trafficCenterEnd");
-// document.getElementById("trafficRight").classList.add("trafficRightEnd");
-// document.getElementById("trafficLeft").classList.add("trafficLeftEnd");
