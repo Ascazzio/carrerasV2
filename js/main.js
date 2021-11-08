@@ -175,7 +175,6 @@ const keyEvent = (event) => {
             race(); 
             
         break;
-
         default:
             console.log("Movimineto invalido");
         break;
